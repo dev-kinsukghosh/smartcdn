@@ -83,6 +83,6 @@ http.createServer(app).listen(PORT, () => {
 Greenlock.init({
     packageRoot: __dirname,
     configDir: './greenlock.d',
-    maintainerEmail: 'kinsuk.work@outlook.com',
+    maintainerEmail: 'youremail@example.com',
     cluster: false
 }).serve(app);
